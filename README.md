@@ -84,10 +84,10 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 
 ```dotenv
-groq_api_key=your_groq_api_key
-weather_api_key=your_weatherapi_key
-news_api_key=your_newsdata_api_key
-google_api_key=your_google_api_key
+weather_api_key = 'Your weather key - weather.com '
+google_api_key = 'your google llm key'
+groq_api_key = 'groq api key'
+news_api_key = 'from https://newsdata.io/api'
 ```
 
 > 🚨 Make sure to replace with your actual API keys.
