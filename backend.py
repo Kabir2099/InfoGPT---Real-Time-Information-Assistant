@@ -105,7 +105,7 @@ def get_stock_price(ticker: str) -> str:
 def get_news(query: str = 'latest') -> str:
     """Fetches the latest news based on the given query. Include all the news data with title and heading"""
     logging.info(f"Tool [get_news] called with query: {query}")
-    api_key = new_api_key
+    api_key = news_api_key
     url = f"https://newsdata.io/api/1/news?apikey={api_key}&q={query}&language=en"
 
     try:
