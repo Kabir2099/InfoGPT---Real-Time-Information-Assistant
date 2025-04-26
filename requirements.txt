@@ -1,0 +1,22 @@
+# Backend
+fastapi
+uvicorn
+pydantic
+langchain
+langgraph
+openai
+groq
+requests
+yfinance
+python-dotenv
+ipapi
+logging
+
+# Frontend
+streamlit
+requests
+pyperclip
+uuid
+
+# Optional / Enhancement Packages
+python-multipart  # For file uploads if needed
