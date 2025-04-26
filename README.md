@@ -99,7 +99,7 @@ news_api_key = 'from https://newsdata.io/api'
 ### Start Backend (FastAPI)
 
 ```bash
-python app.py
+python -m uvicorn backend:app --reload or  uvicorn backend:app --reload
 ```
 ✅ Runs at: `http://127.0.0.1:8000`
 
